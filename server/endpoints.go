@@ -28,11 +28,11 @@ func (s *Server) LoginHandleFunc(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		Encode(nil, w, nil, err)
 	}
-	// err = req.Validate()
-	// if err != nil {
-	// 	Encode(nil, w, nil, err)
-	// 	return
-	// }
+	//err = req.Validate()
+	//if err != nil {
+	//  Encode(nil, w, nil, err)
+	//  return
+	//}
 	resp, err := s.api.Login(r.Context(), req)
 	if err != nil {
 		Encode(nil, w, nil, err)
@@ -56,11 +56,11 @@ func (s *Server) CreatePostHandleFunc(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		Encode(nil, w, nil, err)
 	}
-	// err = req.Validate()
-	// if err != nil {
-	// 	Encode(nil, w, nil, err)
-	// 	return
-	// }
+	//err = req.Validate()
+	//if err != nil {
+	//  Encode(nil, w, nil, err)
+	//  return
+	//}
 	resp, err := s.api.CreatePost(r.Context(), req)
 	if err != nil {
 		Encode(nil, w, nil, err)
@@ -84,11 +84,11 @@ func (s *Server) GetFeedHandleFunc(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		Encode(nil, w, nil, err)
 	}
-	// err = req.Validate()
-	// if err != nil {
-	// 	Encode(nil, w, nil, err)
-	// 	return
-	// }
+	//err = req.Validate()
+	//if err != nil {
+	//  Encode(nil, w, nil, err)
+	//  return
+	//}
 	resp, err := s.api.GetFeed(r.Context(), req)
 	if err != nil {
 		Encode(nil, w, nil, err)
@@ -112,11 +112,11 @@ func (s *Server) FollowUserHandleFunc(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		Encode(nil, w, nil, err)
 	}
-	// err = req.Validate()
-	// if err != nil {
-	// 	Encode(nil, w, nil, err)
-	// 	return
-	// }
+	//err = req.Validate()
+	//if err != nil {
+	//  Encode(nil, w, nil, err)
+	//  return
+	//}
 	resp, err := s.api.FollowUser(r.Context(), req)
 	if err != nil {
 		Encode(nil, w, nil, err)

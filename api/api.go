@@ -1,5 +1,5 @@
 //go:generate go run ../cmd/apigen.go
-//go:generate go run ../cmd/subcmd/doc.go ../cmd/subcmd/examples.go
+//[disabled] go:generate go run ../cmd/subcmd/doc.go ../cmd/subcmd/examples.go
 package api
 
 import (

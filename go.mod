@@ -10,6 +10,6 @@ require (
 	github.com/jmoiron/sqlx v1.3.3 // indirect
 	github.com/mitchellh/mapstructure v1.1.2
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/sirupsen/logrus v1.4.1
+	github.com/sirupsen/logrus v1.8.1
 	golang.org/x/tools v0.0.0-20190404132500-923d25813098
 )

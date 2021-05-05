@@ -1,4 +1,4 @@
-//go:generate go run ../cmd/subcmd/examples.go ../cmd/subcmd/doc.go examples
+//[disabled]  go:generate go run ../cmd/subcmd/examples.go ../cmd/subcmd/doc.go examples
 package api
 
 import "github.com/gofrs/uuid"
