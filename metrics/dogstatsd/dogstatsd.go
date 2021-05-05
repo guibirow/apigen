@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/DataDog/datadog-go/statsd"
-	"github.com/konradreiche/apigen/metrics"
+	"github.com/guibirow/apigen/metrics"
 	"github.com/sirupsen/logrus"
 )
 

@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/DataDog/datadog-go/statsd"
-	"github.com/konradreiche/apigen/api"
-	"github.com/konradreiche/apigen/client"
-	"github.com/konradreiche/apigen/store"
+	"github.com/guibirow/apigen/api"
+	"github.com/guibirow/apigen/client"
+	"github.com/guibirow/apigen/store"
 	"github.com/sirupsen/logrus"
 )
 

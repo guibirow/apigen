@@ -4,8 +4,8 @@ import (
 	"net"
 
 	"github.com/DataDog/datadog-go/statsd"
-	"github.com/konradreiche/apigen/api"
-	"github.com/konradreiche/apigen/server"
+	"github.com/guibirow/apigen/api"
+	"github.com/guibirow/apigen/server"
 	"github.com/sirupsen/logrus"
 )
 

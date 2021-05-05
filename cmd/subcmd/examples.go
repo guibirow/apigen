@@ -8,7 +8,7 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/konradreiche/apigen/api"
+	"github.com/guibirow/apigen/api"
 )
 
 var examples map[string]string = make(map[string]string)

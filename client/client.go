@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/konradreiche/apigen/api"
+	"github.com/guibirow/apigen/api"
 )
 
 type Client struct {

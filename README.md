@@ -9,4 +9,4 @@ This repository contains a sample project how to utilize go:generate in order to
 
 This code was partially shown in the talk **go generate: One File To Rule Them All**.
 
-[Slides](https://speakerdeck.com/konradreiche/go-generate-one-file-to-rule-them-all)
+[Slides](https://speakerdeck.com/guibirow/go-generate-one-file-to-rule-them-all)

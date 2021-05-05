@@ -16,7 +16,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/konradreiche/apigen/parser"
+	"github.com/guibirow/apigen/parser"
 	"github.com/october93/engine/kit/globalid"
 	"github.com/october93/engine/rpc/protocol"
 

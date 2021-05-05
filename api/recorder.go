@@ -9,8 +9,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/konradreiche/apigen/model"
-	"github.com/konradreiche/apigen/store"
+	"github.com/guibirow/apigen/model"
+	"github.com/guibirow/apigen/store"
 	"github.com/sirupsen/logrus"
 )
 

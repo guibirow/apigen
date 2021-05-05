@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/konradreiche/apigen/api"
+	"github.com/guibirow/apigen/api"
 )
 
 func (c *Client) Login(ctx context.Context, req api.LoginRequest) (*api.LoginResponse, error) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/konradreiche/apigen/parser"
+	"github.com/guibirow/apigen/parser"
 )
 
 func main() {

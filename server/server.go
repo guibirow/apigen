@@ -8,7 +8,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/konradreiche/apigen/api"
+	"github.com/guibirow/apigen/api"
 )
 
 type Server struct {
@@ -24,7 +24,7 @@ func NewServer(api api.API) *Server {
 func (s *Server) Serve() {
 	router := mux.NewRouter()
 	router.Use(metadataMiddleware)
-	router.HandleFunc(api.GetPriceEndpoint, s.GetPriceHandleFunc).Methods("GET")
+	//router.HandleFunc(api.GetPriceEndpoint, s.GetPriceHandleFunc).Methods("GET")
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
 

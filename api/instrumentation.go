@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/DataDog/datadog-go/statsd"
-	"github.com/konradreiche/apigen/metrics"
-	"github.com/konradreiche/apigen/metrics/dogstatsd"
+	"github.com/guibirow/apigen/metrics"
+	"github.com/guibirow/apigen/metrics/dogstatsd"
 	"github.com/sirupsen/logrus"
 )
 

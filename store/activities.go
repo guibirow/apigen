@@ -6,7 +6,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/konradreiche/apigen/model"
+	"github.com/guibirow/apigen/model"
 )
 
 func (store *Store) SaveActivity(m *model.Activity) error {
